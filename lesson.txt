@@ -1,0 +1,5 @@
+--Type Assertion: any yoki unknown qiymatlari bila ishlaydi. Type Assertion o'zgaruvchiga aniq tip berish uchun ishlatilinadi.  Type Assertion yozishni 2 xil usuli bor Angle Bracket va as. biz koproq as da foydalanamiz chunki reactda muamo tug'dirmaydi , Angle Bracket esa aksincha
+--Unknown type: Unknown  i o'zgaruvchini type aniqlanmaganda ishlatilinadi . Any ga o'xshab lekin anyda bir enchat farqlari bor. Unknown tip xafsizligini taminlaydi any esa aksincha. Unknow runtime xatolarini oldini olishga yordam beradi
+--Union type: Agar o'zgaruvchi bir nechta qiymat qabul qilsa uni union typedan foydalanamiz
+--Lietral type: Typescriptda malum bir qiymatni qiymat bilan cheklash imkonini beradi. bunda faqatgina belgilangan maxsus qiymatlarni beramiz boshqalarni berolmaymiz
+--Type Aliases: Qayta qayta type bir xil yozmaslik uchun biz n=bitta type yaratib qoyamiz va uni hohlagan joyimizda ishlatim ketamiz. type kalit so'zi orqali aliasi yaratishimiz mumkin

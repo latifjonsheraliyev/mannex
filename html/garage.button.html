@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../Css/homepage.css">
+    <title>Mannex</title>
+</head>
+<body>
+    <header class="head_menu">
+        <section class="container">
+            <div class="menu">
+                <div class="logo">
+                    <img src="../img/Лого.png" alt="">
+                </div>
+                <div class="items">
+                    <ul>
+                        <a class="item_menu" href="../html/index.html"><li>Главная</li></a>
+                        <a class="item_menu" href=""><li>Pro-Запрос</li></a>
+                        <a class="item_menu" href="../html/garage.button.html"><li>Гараж</li></a>
+                        <a class="item_menu" href="../html/contact.html"> <li>Контакты </li></a>
+                        <a class="item_menu" href="../html/empaty_basket.html"><li>Заказы</li></a>                   
+                    </ul>
+                </div>
+                <div class="buy_btn">
+                    <div class="mny">
+                   <a class="magazin" href=""><img class="user_img2" src="../img/Корзина.png" alt=""></a> 
+                   <a href="./balance.html" class="balance"><span class="monney">100000p.</span></a> 
+                </div>
+                    <span>&ensp;</span>
+                    <div class="sing_user">
+                      <a class="user" href="./myinfo.html"><img class="user_img" src="../img/user 1.png" alt=""></a>
+                      <a class="sing" href="./singin-singup.html"><p>Войти</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="search_input">
+               <form class="example" action="/action_page.php">
+                   <input type="text" placeholder="&ensp; Поиск по артикулу" name="search">
+                   <button type="submit"><i>Поиск</i></button>
+               </form>
+            </div>
+        </section> 
+    </header> 
+    <div class="margin_head">
+    <main class="container">
+        <div class="head_main_garage_1">
+            <h1 class="head_h1_garage_1">Гараж</h1>
+        </div>
+        <div class="main_p">
+        <p><a class="build_car" href="../html/garage_input.html">Добавить новый автомобиль</a></p>
+        </div>
+        <div class="lambo">
+            <img src="../img/Red-Lamborghini-PNG-Image 1.png" alt="" class="lambo_icon">
+        </div>
+    </main></div>
+    <footer>
+        <section class="container ftr_container">
+            <div class="spec">
+            <div class="one_main">
+                <img src="../img/Лого.png" alt="" class="logo_footer">
+                <p class="logo_p">2020 © Mannex Все права защищены <br>
+                                  
+                    Публичная оферта</p>
+            </div>
+            <div class="footer_first_nav">
+                <p class="first_menu_p">Основное</p>
+                <ul>
+                    <a class="first_a_ftr" href="../html/index.html"><li>class="firs_li_ftr">Главная</li></a>
+                    <a class="first_a_ftr"  href=""><li class="firs_li_ftr">О компании</li></a>
+                    <a class="first_a_ftr"  href=""><li class="firs_li_ftr">Pro-Запрос</li></a>
+                    <a class="first_a_ftr"  href="../html/garage.button.html"><li class="firs_li_ftr">Гараж</li></a>
+                    <a class="first_a_ftr"  href="../html/contact.html"><li class="firs_li_ftr">Контакты</li></a>   
+                    <a class="first_a_ftr"  href="../html/empaty_basket.html"><li class="firs_li_ftr">Заказы</li></a>        
+                </ul>
+            </div>
+            <div class="footer_first_nav">
+                <p class="first_menu_p">Аккаунт</p>
+                <ul>
+                    <a class="first_a_ftr" href="../html/empaty_basket.html"><li class="firs_li_ftr">Корзина</li></a>
+                    <a class="first_a_ftr"  href="../html/balance.html"><li class="firs_li_ftr">Баланс</li></a>
+                    <a class="first_a_ftr"  href="../html/empaty_basket.html"><li class="firs_li_ftr">Мои заказы</li></a>
+                    <a class="first_a_ftr"  href=""><li class="firs_li_ftr">Запрос продавцу </li></a> 
+                    <a class="first_a_ftr"  href=""><li class="firs_li_ftr">Сравнение</li></a>        
+                </ul>
+            </div>
+            <div class="contact">
+                <p class="contact_p">Контакты</p>
+                <div class="ooo">
+               <a href="mail_a" class="mail_a"> <img class="mail" src="../img/mail 1.png" alt="">&ensp;info-autoheads@mail.ru</a>
+                <a href="" class="phone_a"><img src="../img/Vector (1).png" alt="" class="phone">&ensp;8 900 203 8083<br><span class="sec">8 912 294 5345</span></a> 
+                   
+          </div> </div> </div>
+        </section>
+    </footer>
+    <script>
+        let sing=document.querySelector('.sing');
+        sing.innerText=JSON.parse(localStorage.getItem('user')) ? JSON.parse(localStorage.getItem('user')).firstName :  'Войти'
+  </script>
+</body>
+</html>
