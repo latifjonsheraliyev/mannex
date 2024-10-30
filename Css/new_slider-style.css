@@ -1,4 +1,4 @@
-/*.open {
+.open {
     position: fixed;
     top: 2%;
     right: 3%;
@@ -52,7 +52,7 @@
   .showMenu {
     transform: translateY(0);
     
-  } */
+  }
 
 :root {
   --color-black: #000;
